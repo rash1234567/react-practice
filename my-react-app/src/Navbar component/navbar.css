@@ -1,0 +1,123 @@
+.nav--bar {
+    width: 100%;
+    height: 15vh;
+    background-color:#333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav--list,.active {
+    display: flex;
+    list-style: none;
+    height: 15vh;
+    width: 85%;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.nav--items:hover {
+    color: orange;
+    cursor: pointer;
+}
+
+.fa--bars {
+    font-size: 50px;
+    font-weight: bold;
+    display: none;
+    color: white;
+}
+
+
+@media screen and (max-width:800px) {
+    .fa--bars{
+        display: block;
+        position: absolute;
+        z-index: 3;
+        right: 3%;
+        top: 3%;
+    }
+    .nav--list{
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #333;
+        align-items: center;
+        justify-content:space-around;
+        position: absolute;
+        color: white;
+        font-weight: bold;
+        font-size: 30px;
+        transform:translateX(-100%) ;
+        transition: 1s;
+    }
+
+
+
+   .active {
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background-color: #333;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content:space-around;
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    transform:translateX(0) ;
+    transition: 1s;
+    font-weight: bold;
+    font-size: 30px;
+    list-style: none;
+
+   
+}
+
+}
+
+.lightmode{
+    font-size: 50px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 3;
+    left: 3%;
+    top: 3%;    
+}
+
+.darkmode {
+    font-size: 50px;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    z-index: 3;
+    left: 3%;
+    top: 3%;
+}
+
+.body{
+    padding: 20px;
+    background-color:black ;
+    color: white;
+    height: 100vh;
+}
+
+.light {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    height: 100vh;
+}
+
+
+    
+

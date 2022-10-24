@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-image: linear-gradient(white, black);
+}
+
+.divone {
+    width: 40%;
+    height: 40vh;
+    background-color: peachpuff;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.divtwo {
+    width: 40%;
+    height: 40vh;
+    position: fixed;
+    background-color: aqua;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.divthree {
+    width: 40%;
+    height: 40vh;
+    position: fixed;
+    background-color: brown;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button {
+    font-size: 40px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+input{
+    padding: 3px;
+    border-radius: 5px;
+}
+

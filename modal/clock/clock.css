@@ -1,0 +1,17 @@
+.display{
+    margin-top: 30px;
+    margin-left: 10px;
+    background-color: white;
+    display: flex;
+    height: 30vh;
+    width: 90%;
+    color: red;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    box-shadow: 10px 10px red;
+}
+
+@media screen {
+    
+}

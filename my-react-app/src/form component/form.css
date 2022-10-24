@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.form--container {
+    background-color: purple;
+    height: 100vh;
+    width: 100vw;
+    padding: 20px 0;
+}
+
+.form {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+    margin: auto;
+    padding: 20px 0;
+    height: 550px;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 20px;
+    color: white;
+    border-radius: 9px;
+}
+
+h1 {
+    color: purple;
+}
+
+input {
+    height: 30px;
+    width: 20vw; 
+    padding: 5px;
+    background-color: white;
+}
+
+.submit {
+    background-color: purple;
+    color: white;
+    border-radius: 20px;
+    width: 30%;
+    height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+ 
+small{
+    font-size: 15px;
+    color: red;
+    font-weight: bold;
+}
+label {
+    color :black
+}
+
+input:focus  {
+    outline: none;
+}
+
+@media screen and (max-width:700px) {
+    .form {
+        width: 80vw;
+        height: 85vh;
+        margin-top: 50px;
+    }
+    input {
+        width: 60vw;
+    }
+    
+}
